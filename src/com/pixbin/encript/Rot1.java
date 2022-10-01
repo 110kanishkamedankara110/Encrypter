@@ -72,6 +72,8 @@ public class Rot1 {
         rot1.add(51);
         rot1.add(52);
         rot1.add(53);
+        rot1.add(94);
+
         rot1.add(54);
         rot1.add(55);
         rot1.add(56);

@@ -8,7 +8,8 @@ package com.pixbin.encript;
  *
  * @author Kanishka
  */
-public final class Decriptor extends Engine{
+public final class Decriptor extends Engine {
+
     private char decriptR1(char c) {
         int index = 0;
         int deval = 0;
@@ -83,7 +84,7 @@ public final class Decriptor extends Engine{
         return decSt;
 
     }
-    
+
     public String decriptString(String value) {
 
         StringBuffer sb = new StringBuffer();
@@ -98,6 +99,7 @@ public final class Decriptor extends Engine{
             rotateR1();
 
         }
+        reset();
 
         return sb.toString();
     }

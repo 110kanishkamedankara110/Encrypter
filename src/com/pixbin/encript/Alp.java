@@ -69,6 +69,7 @@ public class Alp {
         alp.add('X');
         alp.add('Y');
         alp.add('Z');
+        
         alp.add(' ');
         alp.add('0');
         alp.add('1');
@@ -111,11 +112,11 @@ public class Alp {
         alp.add('~');
         alp.add('`');
         alp.add('\'');
-
+        alp.add('=');
     }
 
     public ArrayList getAlp() {
         return alp;
     }
-   
+
 }

@@ -88,6 +88,17 @@ public class Engine {
 
     }
 
+    public void reset(){
+        rotationsR1=0;
+        rotationsR2=0;
+        rotationsR3=0;
+        
+        rot1 = new Rot1().getRot1();
+        rot2 = new Rot2().getRot2();
+        rot3 = new Rot3().getRot3();
+    }
+    
+    
     private void rotateR3() {
         ArrayList al = new ArrayList();
         for (int i = 0; i < alp.size(); i++) {

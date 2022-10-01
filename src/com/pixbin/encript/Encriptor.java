@@ -74,9 +74,9 @@ public final class Encriptor extends Engine {
 
     public String encriptString(String value) {
         StringBuffer sb = new StringBuffer();
-        rot1 = new Rot1().getRot1();;
-        rot2 = new Rot2().getRot2();;
-        rot3 = new Rot3().getRot3();;
+        rot1 = new Rot1().getRot1();
+        rot2 = new Rot2().getRot2();
+        rot3 = new Rot3().getRot3();
         char c[] = value.toCharArray();
 
         for (char ch : c) {
@@ -85,6 +85,7 @@ public final class Encriptor extends Engine {
             rotateR1();
 
         }
+        reset();
         return sb.toString();
     }
 

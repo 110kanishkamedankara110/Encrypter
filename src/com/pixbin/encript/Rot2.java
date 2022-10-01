@@ -105,6 +105,8 @@ public class Rot2 {
         rot2.add(90);
         rot2.add(91);
         rot2.add(92);
+        rot2.add(94);
+
         rot2.add(66);
         rot2.add(67);
         rot2.add(68);
